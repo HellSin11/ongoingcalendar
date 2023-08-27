@@ -1,0 +1,96 @@
+.sideBar {
+  border-right:1px solid black;
+  z-index: 11;
+  top: 0;
+  position: fixed;
+  left: -300px;
+  width: 300px;
+  height: 100%;
+  background: rgba(42, 3, 48, 0.69);
+  transition: all .5s ease;
+
+  header {
+    font-size: 22px;
+    color: white;
+    padding-left: 35px;
+    line-height: 75px;
+    background: rgb(38,3,48);
+  }
+
+  ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top:1px solid rgba(255, 255, 255, .1);
+    border-bottom: 1px solid black;
+    transition: .4s;
+
+    i {
+      margin-right: 16px;
+    }
+  }
+
+  ul li:hover a{
+    padding-left: 50px;
+    color: rgb(88,46,70);
+  }
+}
+
+.check {
+  display: none;
+}
+
+
+
+.btn, .cancel {
+  display: block;
+  position: absolute;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.btn{
+  position: fixed;
+  left: 40px;
+  top: 12px;
+  font-size: 35px;
+  color: white;
+  padding: 1px 12px ;
+  transition: all 1s;
+}
+
+.cancel {
+  position: fixed;
+  z-index: 1111;
+  left: -230px;
+  top: 17px;
+  font-size: 30px;
+  color: white;
+  padding: 1px 9px;
+  transition: all 0.5s;
+}
+
+
+
+.lb {
+  z-index: 1000;
+}
+
+.check:checked ~ .sideBar {
+  left: 0;
+}
+
+.check:checked ~ label .btn {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.check:checked ~ label .cancel {
+  left: 230px;
+}
+

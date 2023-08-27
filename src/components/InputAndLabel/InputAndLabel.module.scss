@@ -1,0 +1,45 @@
+input {
+  padding-left: 10px;
+  position: relative;
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid rgba(116, 116, 116, 0.3);
+  transition: .3s ease-in all;
+  font-family: Cocomat, sans-serif;
+  font-size: 18px;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid rgba(0, 72, 255, 0.8);
+}
+
+.container__title__label {
+  margin: 20px 0 5px 40px;
+}
+
+.container__input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  .container__input__icon {
+    margin-right: 10px;
+    color: #1c022f;
+    font-size: 25px;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .container__input__icon {
+    display: none;
+  }
+
+  .container__title__label {
+    margin: 25px 0 5px 5px;
+  }
+
+
+}

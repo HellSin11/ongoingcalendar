@@ -1,0 +1,113 @@
+.inputHidden {
+  margin: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  line-height: 0;
+  font-size: 0;
+  scale: 0;
+}
+
+
+.modal {
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0,0,0,0.7);
+}
+
+h3 i {
+  cursor: pointer;
+  z-index: 11;
+}
+
+.modal__form {
+  position: fixed;
+  border-radius: 30px;
+  background-color: rgb(0,0,0);
+  height: 300px;
+  width: 50%;
+  top: 50%;
+  right: 50%;
+  transform: translateY(-50%) translateX(50%);
+}
+
+.modal__header {
+  z-index: 11;
+  text-align: center;
+  margin: 10px;
+}
+
+
+.modal__input {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  text-align: center;
+  position: fixed;
+  right: 50%;
+  transform: translateX(50%);
+}
+
+.addImg {
+  display: flex;
+  width: 70%;
+  font-size: 3em;
+  cursor: pointer;
+  position: fixed;
+  right: 50%;
+  transform: translateX(50%);
+  top:45%;
+}
+
+.file__name {
+  text-align: center;
+  line-height: 1em;
+  overflow: hidden;
+  height: 1.5em;
+  text-overflow: ellipsis;
+  font-size: 0.4em;
+  padding: 10px;
+}
+
+.tuck {
+  font-size: 0.3em;
+  text-align: center;
+  margin: auto 0;
+  margin-right: 5px;
+}
+
+.create {
+  position: fixed;
+  bottom: 10px;
+  right: 50%;
+  transform: translateX(50%);
+  cursor: pointer;
+  margin: 25px 0 0 50px;
+  width: 250px;
+  height: 55px;
+  border-radius: 20px;
+  color: white;
+  font-family: Cocomat, sans-serif;
+  font-size: 21px;
+  background: linear-gradient(162deg, #FCA311 0%, #D15 100%);
+}
+
+.disable {
+  position: fixed;
+  bottom: 10px;
+  right: 50%;
+  transform: translateX(50%);
+  cursor: not-allowed;
+  margin: 25px 0 0 50px;
+  width: 250px;
+  height: 55px;
+  border-radius: 20px;
+  color: white;
+  font-family: Cocomat, sans-serif;
+  font-size: 21px;
+  background: gray;
+}

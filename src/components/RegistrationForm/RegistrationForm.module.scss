@@ -1,0 +1,37 @@
+.form {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translateY(-50%) translateX(50%);
+  width: 400px;
+  height: 750px;
+  background-color: #EFEFEF;
+  border-radius: 50px 50px 50px 50px;
+  box-shadow: 5px 5px 50px 5px rgba(0, 0, 0, 0.10);
+  border: 2px dotted orangered;
+}
+
+.registration__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #000;
+  margin: 40px 25px 40px 25px;
+}
+
+.title__logo {
+  text-align: center;
+}
+
+
+@media (max-width: 400px) {
+  .form {
+    width: 350px;
+  }
+
+
+
+}
+
+
+

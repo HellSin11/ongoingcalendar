@@ -1,0 +1,20 @@
+.Header {
+  width: 100%;
+  text-align: center;
+  z-index: 0;
+  top: 85px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 3em;
+  line-height: 75px;
+  text-shadow: 3px 5px 5px black;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .Header {
+    font-size: 2em;
+  }
+}

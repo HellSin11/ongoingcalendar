@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Cocomat';
+    src: local('Cocomat Light'), local('Cocomat-Light'),
+        url('../fonts/Cocomat-Light.woff2') format('woff2'),
+        url('../fonts/Cocomat-Light.woff') format('woff'),
+        url('../fonts/Cocomat-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }

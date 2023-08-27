@@ -1,0 +1,13 @@
+.login {
+  margin-top: 20px;
+  text-align: center;
+  a{
+    color: black;
+  }
+}
+
+@media (max-width: 400px) {
+  .login {
+    font-size: 15px;
+  }
+}

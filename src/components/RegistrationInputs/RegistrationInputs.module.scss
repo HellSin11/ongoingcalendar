@@ -1,0 +1,95 @@
+.error {
+  color: red;
+  margin-top: 7px;
+  margin-left: 35px;
+  font-size: 13px;
+}
+
+.container__create {
+  display: block;
+}
+
+
+.create {
+  border: none;
+  cursor: pointer;
+  margin: 25px 0 0 50px;
+  width: 250px;
+  height: 55px;
+  border-radius: 20px;
+  color: white;
+  font-family: Cocomat, sans-serif;
+  font-size: 21px;
+  background: linear-gradient(162deg, #FCA311 0%, #D15 100%);
+}
+
+.disable {
+  border: none;
+  cursor: not-allowed;
+  margin: 25px 0 0 50px;
+  width: 250px;
+  height: 55px;
+  border-radius: 20px;
+  color: white;
+  font-family: Cocomat, sans-serif;
+  font-size: 21px;
+  background: gray;
+}
+
+.terms {
+  margin: 25px 15px 0 60px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+
+  .check {
+    margin-right: 15px;
+    width: 15px;
+    height: 15px;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.reg__success {
+  color: green;
+  margin-top: 25px;
+  width: 90%;
+  text-align: center;
+}
+
+.reg__error {
+  color: red;
+  margin-top: 25px;
+  width: 90%;
+  text-align: center;
+}
+
+@media (max-width: 400px) {
+  .error {
+    margin-left: 5px;
+  }
+
+  .create {
+    margin-left: 25px;
+  }
+
+  .disable {
+    margin-left: 25px;
+  }
+
+  .terms {
+    margin-left: 35px;
+  }
+
+}
+
+
+
+
+
+
